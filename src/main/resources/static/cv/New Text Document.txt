@@ -1,0 +1,48 @@
+"addJobId": 72,
+        "company": "Intellitaech",
+        "jobTitle": "Java Developer",
+        "jobType": "Full Time",
+        "jobCategory": "Backend Devloper",
+        "noOfVacancy": 10,
+        "dateOfClosing": "17/12/2022",
+        "gender": "No Prefrence",
+        "minExperience": "Fresher",
+        "isFeatured": "Yes",
+        "status": "Published",
+        "shortDescription": "A Java Developer is responsible for the design, development, and management of Java-based applications",
+        "longDescription": "A developer is responsible for several Java-related duties throughout the software development lifecycle."
+
+
+
+
+public T saveCandidate(@RequestParam("file") MultipartFile file,@RequestParam("candidateData") String candidateData){
+		log.info("file:{}",file.getOriginalFilename());
+		log.info("candidatae:{}",candidateData);
+	 return (T) "done";
+
+
+{
+"jobCandidateId": 0,
+  "jobTitle": "string",
+  "candidateName": "string",
+  "fb": "string",
+  "linkedin": "string",
+  "email": "string",
+  "cvUrl": "string",
+  "status": "string",
+  "applyDate": "2022-12-26T05:27:45.461Z",
+  "jobPost": {
+    "addJobId": 0,
+    "company": "string",
+    "jobTitle": "string",
+    "jobType": "string",
+    "jobCategory": "string",
+    "noOfVacancy": 0,
+    "dateOfClosing": "string",
+    "gender": "string",
+    "minExperience": "string",
+    "isFeatured": "string",
+    "status": "string",
+    "shortDescription": "string",
+    "longDescription": "string"
+  }
